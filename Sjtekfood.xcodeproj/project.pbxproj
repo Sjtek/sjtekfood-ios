@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B89853D64466F074914184C /* Pods_Sjtekfood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997A52241E1867C3F952B06 /* Pods_Sjtekfood.framework */; };
 		6C23781B1DD7489400DB3D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C23781A1DD7489400DB3D9D /* AppDelegate.swift */; };
 		6C2378221DD7489400DB3D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2378201DD7489400DB3D9D /* Main.storyboard */; };
 		6C2378241DD7489400DB3D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2378231DD7489400DB3D9D /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B89853D64466F074914184C /* Pods_Sjtekfood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C23782B1DD7489400DB3D9D /* Build configuration list for PBXNativeTarget "Sjtekfood" */;
 			buildPhases = (
+				D1C5BF85EC73E4F3399F178F /* [CP] Check Pods Manifest.lock */,
 				6C2378131DD7489400DB3D9D /* Sources */,
 				6C2378141DD7489400DB3D9D /* Frameworks */,
 				6C2378151DD7489400DB3D9D /* Resources */,
+				2AE362B306EF475B1B3B5C91 /* [CP] Embed Pods Frameworks */,
+				6F723A624DAA464F71F4B8DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE362B306EF475B1B3B5C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sjtekfood/Pods-Sjtekfood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F723A624DAA464F71F4B8DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sjtekfood/Pods-Sjtekfood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C5BF85EC73E4F3399F178F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C2378131DD7489400DB3D9D /* Sources */ = {

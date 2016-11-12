@@ -12,6 +12,7 @@ class StartViewController: UIViewController {
 
     @IBOutlet weak var labelHeader: UILabel!
     @IBOutlet weak var labelMeal: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
