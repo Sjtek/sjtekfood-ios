@@ -24,4 +24,17 @@ class Dinner {
         self.date = date
         self.meal = meal
     }
+    
+    static func fromJson(json: NSDictionary) -> Dinner? {
+        let dic = json["meal"] as! NSDictionary
+        if let meal = Meal.fromJson(json: dic) {
+            if let id = json["id"] as? Int {
+                if let dateMillis = json["date"] as? Double {
+                    let date = Date(timeIntervalSince1970: dateMillis)
+                    return Dinner(id: id, date: date, meal: meal)
+                }
+            }
+        }
+        return nil
+    }
 }

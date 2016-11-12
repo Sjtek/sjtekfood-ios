@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Stuff we did eat-->
         <scene sceneID="GXx-dY-wQ0">
             <objects>
                 <tableViewController id="A9E-ie-w96" customClass="DinnerViewController" customModule="Sjtekfood" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="A9E-ie-w96" id="w9b-aX-mqm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="eMP-Sa-fSu"/>
+                    <navigationItem key="navigationItem" title="Stuff we did eat" id="eMP-Sa-fSu"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaO-hz-R5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="876" y="385"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Stuff we can make-->
         <scene sceneID="9fJ-Fk-5xj">
             <objects>
                 <tableViewController id="mZK-OP-2hi" customClass="MealViewController" customModule="Sjtekfood" customModuleProvider="target" sceneMemberID="viewController">
@@ -105,7 +105,7 @@
                             <outlet property="delegate" destination="mZK-OP-2hi" id="Js0-Sr-mbj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="3b6-8D-nUD"/>
+                    <navigationItem key="navigationItem" title="Stuff we can make" id="3b6-8D-nUD"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEW-jD-REY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,7 +145,7 @@
             </objects>
             <point key="canvasLocation" x="863" y="-297"/>
         </scene>
-        <!--Start View Controller-->
+        <!--Sjtek food-->
         <scene sceneID="4LY-jY-XQw">
             <objects>
                 <viewController id="ViN-0Z-iKe" customClass="StartViewController" customModule="Sjtekfood" customModuleProvider="target" sceneMemberID="viewController">
@@ -158,16 +158,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWu-pS-lCQ">
-                                <rect key="frame" x="16" y="320" width="343" height="26"/>
+                                <rect key="frame" x="16" y="320" width="343" height="53"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="26" id="kUO-1u-yu0"/>
+                                    <constraint firstAttribute="height" constant="53" id="kUO-1u-yu0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qn9-or-Rlk">
-                                <rect key="frame" x="16" y="291" width="343" height="21"/>
+                                <rect key="frame" x="16" y="291.5" width="343" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="y6b-a9-pcn"/>
                                 </constraints>
@@ -191,7 +191,7 @@
                         <constraints>
                             <constraint firstItem="qn9-or-Rlk" firstAttribute="trailing" secondItem="tRZ-1B-yp5" secondAttribute="trailingMargin" id="E7Q-BL-JLq"/>
                             <constraint firstItem="fWu-pS-lCQ" firstAttribute="trailing" secondItem="tRZ-1B-yp5" secondAttribute="trailingMargin" id="EKj-kk-0ar"/>
-                            <constraint firstItem="fWu-pS-lCQ" firstAttribute="centerY" secondItem="tRZ-1B-yp5" secondAttribute="centerY" id="Edt-nb-ERw"/>
+                            <constraint firstItem="fWu-pS-lCQ" firstAttribute="centerY" secondItem="tRZ-1B-yp5" secondAttribute="centerY" constant="13" id="Edt-nb-ERw"/>
                             <constraint firstItem="fWu-pS-lCQ" firstAttribute="leading" secondItem="tRZ-1B-yp5" secondAttribute="leadingMargin" id="R2q-ou-bfh"/>
                             <constraint firstItem="yeS-27-p6c" firstAttribute="top" secondItem="zBq-OP-71s" secondAttribute="bottom" constant="8" id="UtD-Ah-IUV"/>
                             <constraint firstItem="fWu-pS-lCQ" firstAttribute="top" secondItem="qn9-or-Rlk" secondAttribute="bottom" constant="8" id="cgZ-CT-Spq"/>
@@ -200,7 +200,7 @@
                             <constraint firstItem="fWu-pS-lCQ" firstAttribute="centerX" secondItem="tRZ-1B-yp5" secondAttribute="centerX" id="w5K-Hb-vXX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="tyL-gF-Vnl"/>
+                    <navigationItem key="navigationItem" title="Sjtek food" id="tyL-gF-Vnl"/>
                     <connections>
                         <outlet property="labelHeader" destination="qn9-or-Rlk" id="4Eb-zn-M28"/>
                         <outlet property="labelMeal" destination="fWu-pS-lCQ" id="sjd-pu-g9V"/>

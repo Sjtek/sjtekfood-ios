@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class StartViewController: UIViewController {
 
@@ -15,6 +16,7 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        refreshMeal()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +24,22 @@ class StartViewController: UIViewController {
     }
 
     @IBAction func onRefreshClick(_ sender: Any) {
-        
+        refreshMeal()
+    }
+    
+    func refreshMeal() {
+        Alamofire.request("https://sjtekfood.habets.io/api/dinners/next").responseJSON { response in
+            debugPrint(response)
+            
+            if let json = response.result.value {
+                let dic = json as! NSDictionary
+                self.labelHeader.text = "o shit here come"
+                if let meal = Meal.fromJson(json: dic) {
+                    self.labelMeal.text = "dat " + meal.name
+                } else {
+                    self.labelMeal.text = "dat error"
+                }
+            }
+        }
     }
 }

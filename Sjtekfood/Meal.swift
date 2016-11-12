@@ -22,4 +22,13 @@ class Meal {
         self.id = id
         self.name = name;
     }
+    
+    static func fromJson(json: NSDictionary) -> Meal? {
+        if let id = json["id"] as? Int {
+            if let name = json["name"] as? String {
+                return Meal(id: id, name: name)
+            }
+        }
+        return nil
+    }
 }
