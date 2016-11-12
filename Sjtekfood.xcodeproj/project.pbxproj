@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C23781B1DD7489400DB3D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C23781A1DD7489400DB3D9D /* AppDelegate.swift */; };
+		6C2378221DD7489400DB3D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2378201DD7489400DB3D9D /* Main.storyboard */; };
+		6C2378241DD7489400DB3D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2378231DD7489400DB3D9D /* Assets.xcassets */; };
+		6C2378271DD7489400DB3D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2378251DD7489400DB3D9D /* LaunchScreen.storyboard */; };
+		6C23782F1DD74B3D00DB3D9D /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C23782E1DD74B3D00DB3D9D /* DinnerViewController.swift */; };
+		6C2378311DD74BB900DB3D9D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2378301DD74BB900DB3D9D /* Meal.swift */; };
+		6C2378331DD74CCD00DB3D9D /* Dinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2378321DD74CCD00DB3D9D /* Dinner.swift */; };
+		6C2378391DD7505F00DB3D9D /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2378381DD7505F00DB3D9D /* MealViewController.swift */; };
+		6C23783B1DD753E100DB3D9D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C23783A1DD753E100DB3D9D /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E2BF66F430912C4FA493208 /* Pods-Sjtekfood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sjtekfood.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sjtekfood/Pods-Sjtekfood.release.xcconfig"; sourceTree = "<group>"; };
+		6C2378171DD7489400DB3D9D /* Sjtekfood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sjtekfood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C23781A1DD7489400DB3D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C2378211DD7489400DB3D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C2378231DD7489400DB3D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C2378261DD7489400DB3D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C2378281DD7489400DB3D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C23782E1DD74B3D00DB3D9D /* DinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
+		6C2378301DD74BB900DB3D9D /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		6C2378321DD74CCD00DB3D9D /* Dinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dinner.swift; sourceTree = "<group>"; };
+		6C2378381DD7505F00DB3D9D /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		6C23783A1DD753E100DB3D9D /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C997A52241E1867C3F952B06 /* Pods_Sjtekfood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sjtekfood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9068AA603E76E812AF95A72 /* Pods-Sjtekfood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sjtekfood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sjtekfood/Pods-Sjtekfood.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C2378141DD7489400DB3D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E29D049E2B36EE6BD6C7A85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9068AA603E76E812AF95A72 /* Pods-Sjtekfood.debug.xcconfig */,
+				3E2BF66F430912C4FA493208 /* Pods-Sjtekfood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C23780E1DD7489400DB3D9D = {
+			isa = PBXGroup;
+			children = (
+				6C2378191DD7489400DB3D9D /* Sjtekfood */,
+				6C2378181DD7489400DB3D9D /* Products */,
+				5E29D049E2B36EE6BD6C7A85 /* Pods */,
+				EFDA1850A3527F19A83E57AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C2378181DD7489400DB3D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C2378171DD7489400DB3D9D /* Sjtekfood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C2378191DD7489400DB3D9D /* Sjtekfood */ = {
+			isa = PBXGroup;
+			children = (
+				6C23781A1DD7489400DB3D9D /* AppDelegate.swift */,
+				6C2378201DD7489400DB3D9D /* Main.storyboard */,
+				6C2378231DD7489400DB3D9D /* Assets.xcassets */,
+				6C2378251DD7489400DB3D9D /* LaunchScreen.storyboard */,
+				6C2378281DD7489400DB3D9D /* Info.plist */,
+				6C23782E1DD74B3D00DB3D9D /* DinnerViewController.swift */,
+				6C2378301DD74BB900DB3D9D /* Meal.swift */,
+				6C2378321DD74CCD00DB3D9D /* Dinner.swift */,
+				6C2378381DD7505F00DB3D9D /* MealViewController.swift */,
+				6C23783A1DD753E100DB3D9D /* StartViewController.swift */,
+			);
+			path = Sjtekfood;
+			sourceTree = "<group>";
+		};
+		EFDA1850A3527F19A83E57AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C997A52241E1867C3F952B06 /* Pods_Sjtekfood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C2378161DD7489400DB3D9D /* Sjtekfood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C23782B1DD7489400DB3D9D /* Build configuration list for PBXNativeTarget "Sjtekfood" */;
+			buildPhases = (
+				6C2378131DD7489400DB3D9D /* Sources */,
+				6C2378141DD7489400DB3D9D /* Frameworks */,
+				6C2378151DD7489400DB3D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sjtekfood;
+			productName = Sjtekfood;
+			productReference = 6C2378171DD7489400DB3D9D /* Sjtekfood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C23780F1DD7489400DB3D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Sjtek;
+				TargetAttributes = {
+					6C2378161DD7489400DB3D9D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 67RW8URWT7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C2378121DD7489400DB3D9D /* Build configuration list for PBXProject "Sjtekfood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C23780E1DD7489400DB3D9D;
+			productRefGroup = 6C2378181DD7489400DB3D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C2378161DD7489400DB3D9D /* Sjtekfood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C2378151DD7489400DB3D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2378271DD7489400DB3D9D /* LaunchScreen.storyboard in Resources */,
+				6C2378241DD7489400DB3D9D /* Assets.xcassets in Resources */,
+				6C2378221DD7489400DB3D9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C2378131DD7489400DB3D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C23782F1DD74B3D00DB3D9D /* DinnerViewController.swift in Sources */,
+				6C2378311DD74BB900DB3D9D /* Meal.swift in Sources */,
+				6C23781B1DD7489400DB3D9D /* AppDelegate.swift in Sources */,
+				6C2378331DD74CCD00DB3D9D /* Dinner.swift in Sources */,
+				6C2378391DD7505F00DB3D9D /* MealViewController.swift in Sources */,
+				6C23783B1DD753E100DB3D9D /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C2378201DD7489400DB3D9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C2378211DD7489400DB3D9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C2378251DD7489400DB3D9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C2378261DD7489400DB3D9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C2378291DD7489400DB3D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C23782A1DD7489400DB3D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C23782C1DD7489400DB3D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9068AA603E76E812AF95A72 /* Pods-Sjtekfood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67RW8URWT7;
+				INFOPLIST_FILE = Sjtekfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.sjtek.Sjtekfood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C23782D1DD7489400DB3D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2BF66F430912C4FA493208 /* Pods-Sjtekfood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67RW8URWT7;
+				INFOPLIST_FILE = Sjtekfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.sjtek.Sjtekfood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C2378121DD7489400DB3D9D /* Build configuration list for PBXProject "Sjtekfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2378291DD7489400DB3D9D /* Debug */,
+				6C23782A1DD7489400DB3D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C23782B1DD7489400DB3D9D /* Build configuration list for PBXNativeTarget "Sjtekfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C23782C1DD7489400DB3D9D /* Debug */,
+				6C23782D1DD7489400DB3D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C23780F1DD7489400DB3D9D /* Project object */;
+}
